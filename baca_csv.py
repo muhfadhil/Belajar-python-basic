@@ -11,9 +11,6 @@ with open('data1.csv') as csv_file:
 
 labels = contacts.pop(0)
 
-#print(labels)
-#print(contacts)
-
 print(f'{labels[0]}\t {labels[1]} \t {labels[2]}')
 print('-'*34)
 for row in contacts:
